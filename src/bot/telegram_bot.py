@@ -4,9 +4,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, BotComm
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters
 from telegram.constants import ParseMode
 
-from config import BOT_TOKEN, CATEGORIES, MIN_BET
-from database import GameDatabase
-from game_logic import NumberGuessingGame
+from ..config.settings import BOT_TOKEN, CATEGORIES, MIN_BET
+from ..database.db_manager import GameDatabase
+from ..game.game_logic import NumberGuessingGame
 
 # Set up logging
 logging.basicConfig(

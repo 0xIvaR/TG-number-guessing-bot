@@ -1,6 +1,6 @@
 import aiosqlite
 import logging
-from config import DATABASE_PATH, INITIAL_CREDITS
+from ..config.settings import DATABASE_PATH, INITIAL_CREDITS
 
 logger = logging.getLogger(__name__)
 

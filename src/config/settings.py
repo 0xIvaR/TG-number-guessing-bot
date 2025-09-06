@@ -31,4 +31,4 @@ CATEGORIES = {
 }
 
 # Database Configuration
-DATABASE_PATH = 'game_bot.db' 
+DATABASE_PATH = 'data/game_bot.db' 

@@ -1,6 +1,6 @@
 import random
 import logging
-from config import CATEGORIES, MIN_BET
+from ..config.settings import CATEGORIES, MIN_BET
 
 logger = logging.getLogger(__name__)
 
